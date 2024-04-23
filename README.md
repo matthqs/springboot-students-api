@@ -27,9 +27,8 @@ This is an API project developed in Spring Boot that allows performing CRUD (Cre
 
 1. Clone this repository: `git clone https://github.com/your-username/repository-name.git`
 2. Import the project into your favorite IDE (for example, IntelliJ IDEA, Eclipse).
-3. Configure the connection information to the PostgreSQL database in the `application.properties` file.
-4. Ensure that PostgreSQL is running.
-5. Run the Spring Boot application.
+3. Configure the connection information to the PostgreSQL database in the `application.properties` and `docker-compose.yaml` files.
+4. Run `docker compose up -d`, done.
 
 ## Endpoints
 
