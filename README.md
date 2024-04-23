@@ -20,9 +20,7 @@ This is an API project developed in Spring Boot that allows performing CRUD (Cre
 
 ## Prerequisites
 
-- Java Development Kit (JDK) >= 17
-- PostgreSQL
-- Maven
+- Docker
 
 ## Installation and Configuration
 
