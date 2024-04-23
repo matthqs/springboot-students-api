@@ -16,6 +16,7 @@ This is an API project developed in Spring Boot that allows performing CRUD (Cre
 - Spring Boot
 - PostgreSQL
 - Maven
+- Docker
 
 ## Prerequisites
 
