@@ -39,7 +39,7 @@ public class StudentService {
     public void deleteStudent(Long studentId) {
         boolean exists = studentRepository.existsById(studentId);
         if (!exists) {
-            throw new IllegalStateException(STR."Student with id: \{studentId} does not exists");
+            throw new IllegalStateException("Student with id:" + studentId + "does not exists.");
         }
 
         studentRepository.deleteById(studentId);
@@ -51,7 +51,7 @@ public class StudentService {
                               String name,
                               String email) {
         Student student = studentRepository.findById(studentId)
-                .orElseThrow(() -> new IllegalStateException(STR."Student with id: \{studentId} does not exists."));
+                .orElseThrow(() -> new IllegalStateException("Student with id:" + studentId + "does not exists."));
 
         if (name != null &&
                 !name.isEmpty() &&
